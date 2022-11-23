@@ -1,4 +1,5 @@
 # Created by Lucas LeBlanc
+# Created Nov 2022
 # This program tells you the smallest and biggest numbers inputted
 
 list1 = []
