@@ -6,7 +6,8 @@ list1 = []
 
 # asking number of integers to put in list
 num = int(input("Enter number of integers in list: "))
- 
+
+
 # iterating till num to append integers in list
 for i in range(1, num + 1):
     ele = int(input("Enter integers: "))
