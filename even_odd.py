@@ -31,7 +31,7 @@ def main():
         print("The sum of all odd numbers is = {0}.".format(odd))
 
     except Exception:
-        print("Oops invalid input, try again.")
+        print("invalid input, try again.")
 
     print("\nDone.")
 
