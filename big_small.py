@@ -1,38 +1,23 @@
-#!/usr/bin/env python3
+# Created by Lucas LeBlanc
+# This program tells you the smallest and biggest numbers inputted
 
-# Created by: Lucas LeBlanc
-# Created on: NOV 2022
-# This program adds positive number using loops
+list1 = []
 
+# asking number of integers to put in list
+num = int(input("Enter number of integers in list: "))
+ 
+# iterating till num to append integers in list
+for i in range(1, num + 1):
+    ele= int(input("Enter integers: "))
+    list1.append(ele)
+# iterating till num to append integers in list
+for i in range(1, num + 1):
 
-def main():
-    # This program adds positive number using loops
-    loop_counter = 0
-    add_int = 0
+    list1.append(ele)
+# print maximum element
+print("The biggest integer is:", max(list1))
+# print maximum integer
+print("The smallest integer is:", min(list1))
+list1 = []
 
-    # input,process,output
-    loops_string = input("How many positive integers do you want to add?: ")
-    print("")
-
-    try:
-        loops_integer = int(loops_string)
-        if loops_integer > 0:
-            while loop_counter < loops_integer:
-                loop_counter = loop_counter + 1
-                user_string = input("Enter a number to add: ")
-                user_number = int(user_string)
-                if user_number < 0:
-                    continue
-                add_int = add_int + user_number
-                sum = add_int
-            print("Sum of just the positive numbers is = {0}".format(sum))
-        else:
-            print("That is not a positive integer.")
-    except ValueError:
-        print("That is not a valid input, try again.")
-
-    print("\nDone.")
-
-
-if __name__ == "__main__":
-    main()
+print("\nDone.")
