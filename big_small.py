@@ -9,7 +9,7 @@ num = int(input("Enter number of integers in list: "))
  
 # iterating till num to append integers in list
 for i in range(1, num + 1):
-    ele= int(input("Enter integers: "))
+    ele = int(input("Enter integers: "))
     list1.append(ele)
 # iterating till num to append integers in list
 for i in range(1, num + 1):
